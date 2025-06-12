@@ -23,10 +23,8 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <h2>High-Level Deployment and Configuration Steps</h2>
 
 - Install Active Directory Domain services
-- Step 2
-- Step 3
-- step 4
-- 
+- Created Organizational units 
+- Connect Patron-1 to the Domain controller
 
   
 
@@ -36,22 +34,22 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <img src="https://i.imgur.com/21UDtRl.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-I installed Active directory domain services role using server manager on windows server.
+I installed Active directory domain services role using server manager on windows server and promoted the server to a domain controller. 
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/RM9Neup.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Created two Organizational Units (Associates and Executives), and added a user (Ann Maxwell) with Domain Admin privileges, then i log into my domain as Ann maxwell.
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/okjE6sm.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Successfully joined a client machine (Patron-1) to the domain controlled by the server, completing the domain network setup.
 </p>
 <br />
